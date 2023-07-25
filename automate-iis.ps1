@@ -23,4 +23,4 @@
 # SOFTWARE.
 
 Add-WindowsFeature Web-Server
-Set-Content -Path "C:\inetpub\wwwroot\Default.htm" -Value "Hello World updated from host $($env:computername) !"
+Set-Content -Path "C:\inetpub\wwwroot\Default.htm" -Value "Hello World updated again from host $($env:computername) !"
